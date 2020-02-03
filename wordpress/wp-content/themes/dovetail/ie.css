@@ -1,0 +1,59 @@
+/* Class added using jQuery as IE had no clue about complex selectors*/
+.commentOdd,
+.commentEven {
+	padding: 1em;
+	border: solid 1px #ededed;
+	margin-bottom: 1em;
+}
+.commentOdd  {background-color: #efefef}
+.commentEven {background-color: #ffffff}
+
+body,html,#layer1{
+	width: 100%;
+	height: 100%;
+}
+
+.widgetTop,
+.widgetBottom,
+.postFrameTop,
+.postFrameBottom{
+	position: relative;
+	background-image: none;
+	overflow:hidden;
+}
+
+.postFrame .IEFix {
+	width:1800px;
+	height:16px;
+	display:block;
+	position:relative
+}
+
+.widget .IEFix {
+	width: 870px;
+	height: 16px;
+	display: block;
+	position:relative;
+}
+
+.postFrameTop .IEFix {left: -600px}
+.postFrameBottom .IEFix {left: -1200px}
+.widgetTop .IEFix {left:-290px}
+.widgetBottom .IEFix {left:-580px}
+
+
+#headerRSS img { visibility:hidden}
+#headerRSS { cursor: pointer;}
+#layer1 {background-image:url(images/backgroundie.gif);}
+
+/* Remove some peekaboo bugs */
+.postBody form,
+.postBody fieldset,
+.reply,
+.postFooter {height: 1px}
+
+/* Strip some 3px extra space added to ie6.*/
+#sidebar {margin-left: 617px}
+#nextPosts {margin-left:297px}
+
+.page-numbers {width: 20px;white-space:nowrap}

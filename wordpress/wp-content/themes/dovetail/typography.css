@@ -1,0 +1,146 @@
+body {
+	font:9pt arial,free-sans,sans-serif;
+	line-height:1.5em
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a 	{color:#333333;text-decoration:none}
+a		{color:#400000;text-decoration:underline}
+#footer a:hover,
+a:hover	{color:#800000;text-decoration:none}
+a img 	{border:0 none}
+h1,h2,h3,h4,h5,h6,.commentTitle,.widgetTitle,#newCommentTitle {
+	font-family: arial,free-sans,sans-serif;
+	font-weight:100;
+	color: #333;
+	line-height: 1em;
+	margin-bottom: 0.25em;
+}
+.rightArrow {color: #900;}
+
+.widgetTitle{
+	display:block;
+	font-size:150%;
+}
+
+.postTitle {
+/*	background: url(images/leaf-small.jpg) no-repeat left top transparent; */
+	text-indent: 0px;
+	font-size: 150%;
+	line-height: 16pt;
+	margin-bottom:0;
+	position:relative;
+}
+
+h1#siteTitle{
+	color:#fff;
+	font-variant: small-caps;
+	text-shadow:-1px 1px rgba(0,0,0,0.3); /* Wonder if IE will be able to see this, hahaha */
+	margin:0;
+	font-size:30pt;
+	letter-spacing:0.05em
+}
+
+h1#siteTitle a {color:#fff}
+
+h2#tagline {
+	text-shadow:-1px 1px rgba(0,0,0,0.3);
+	color:#aaa;
+	margin-top:0.75em;
+	font-size:12pt;
+	padding-left: 2px;
+}
+#newCommentTitle,
+.commentTitle {
+	display: block;
+	font-size: 150%;
+	/*margin-top: 1em;*/
+}
+
+hr,
+address,
+embed,
+pre,
+blockquote,
+p,
+.postBody object,
+.postBody iframe,
+.postBody table,
+.postBody dl,
+.postBody ol,
+.postBody ul {
+	margin-bottom:1em
+}
+.postBody dl,
+.postBody ol,
+.postBody ul {
+	padding-left: 3em
+}
+
+.gallery dl {
+	padding-left: 0;
+}
+
+
+.postBody dl dl,
+.postBody li ol,
+.postBody li ul {
+	margin:0;
+	padding-left:1.5em
+}
+
+.postBody form,
+.postBody fieldset {
+	padding: 1em;
+	border:solid 1px #999;
+	width: auto;
+}
+
+.postBody form p label { /* Just because Wordpress like to wrap everything in a P.*/
+	display:block;
+	margin-top: 1em;
+	margin-bottom: -1em;
+}
+
+abbr{cursor:help}
+
+blockquote{
+	border-left:solid 0.3em #efefef;
+	padding-left: 0.5em;
+	margin:0 6% 1em;
+	font-size:small;
+	font-style:italic
+}
+
+blockquote blockquote {
+	margin:0;
+	padding:0;
+	border: none 0;
+}
+
+address {
+	font-style: italic;
+	font-variant:small-caps;
+	font-size: small;
+	letter-spacing: 0.1em;
+	font-weight: bold;
+}
+
+q {
+	font-family:serif;
+	font-size: larger;
+	font-style: italic;
+}
+pre, code{
+	font-family: monospace;
+	color:#6f6060;
+	line-height: 2em;
+	border:solid 1px #dedede;
+	background-color: #f6f6f6;
+	padding: 1em;
+}
+
+body.ie7 form { zoom: 1; } /* Fix a minor problem with IE7 */

@@ -1,0 +1,6 @@
+/* Some crude iPhone fixes */
+.postMeta,
+.postTitle,
+.postBody { width: 270px; overflow:visible}
+#commentlist li.depth-1 { width: 265px}
+#commentlist li.depth-2 { width: 245px}

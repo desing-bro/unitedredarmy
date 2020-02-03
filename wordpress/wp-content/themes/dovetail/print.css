@@ -1,0 +1,56 @@
+body * { /* Strip padding,margin from the every element to that I can align all text to my own grid. */
+	margin-top:0;
+	margin-bottom:0;
+	padding-top:0;
+	padding-bottom:0;
+	font-family:arial,free-sans,sans-serif;
+	font-size: 10pt;
+}
+a img {border:0}
+li.current_page_item li a, li.current-cat li a, a {color:#960;text-decoration:none;font-weight:bold}
+li.current_page_item li a:hover, li.current-cat li a:hover,li.current_page_item a, li.current-cat a, a:hover {color:#f90}
+abbr {cursor:help}
+img.right {float:right;margin:5px 0 5px 5px;clear:right}
+img.left {float:left;margin:5px 5px 5px 0;clear:left}
+.clear {clear:both;height:1px; width: 1px; overflow: hidden; visibility:hidden;}
+p,table,blockquote {margin-bottom:1em}
+ol,ul {margin-top:1em;margin-bottom:1em}
+li ol,li ul {margin-top:0;margin-bottom:0}
+h1,h1 a {font-size:20pt;color:black;font-weight:bold}
+h2,h2 a {font-size:16pt;color:black;font-weight:bold}
+h3,h3 a {font-size:14pt;color:black;font-weight:bold}
+h4,h4 a {font-size:12px;color:black;font-weight:bold}
+h5,h5 a {font-size:10px;color:black;font-weight:bold}
+h6,h6 a {font-size:10px;color:black;font-weight:normal}
+div.post-body p { line-height: 1.5em; text-align: justify}
+.icit-tag { position: absolute; top: 0; right: 0; border: 0;}
+
+.alignright {
+	float:right;
+	margin:0.2em 0 0.2em 0.75em;
+	clear:right
+}
+
+.alignleft {
+	float:left;
+	margin:0.2em 0.75em 0.2em 0;
+	clear:left
+}
+
+.aligncenter {
+	display: block;
+	margin: 1em auto;
+	clear:both;
+	text-align: center;
+}
+
+#mainlogo { float: left;}
+div.login,
+div#header-content,
+div#sidebar {display: none;}
+
+#header { height: 150px;}
+
+div.post-frame{ margin-bottom: 1em }
+div.post-footer { clear:both; overflow: hidden; visibility:hidden;}
+.comment-rss-link, div.new-comment, div.post-navigation { display: none;}
